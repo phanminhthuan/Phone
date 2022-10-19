@@ -11,7 +11,7 @@
 
 .head label {
     margin-right: 30px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 /*----------end head---------*/
@@ -36,11 +36,12 @@
 }
 
 .search .width {
-    width: 20%;
+    margin-right: 5px;
+    width: 10%;
 }
 
 .search-box {
-    margin-left: 10px;
+    margin-left: 35px;
     width: 80%;
     border: 2px solid rgba(0, 0, 0, 0.1);
 }
@@ -118,12 +119,12 @@ header ul li {
 
 header ul li a {
     transition: 0.5s;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 19px;
 }
 
 header ul li a:hover {
-    color: #e94560;
+    color: #ffa007;
 }
 
 .open {

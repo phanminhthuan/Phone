@@ -14,10 +14,10 @@ const head = () => {
                 <div className='right row RText'>
                     <label>FAQ</label>
                     <label>Trợ Giúp</label>
-                    <span>🎏</span>
+                    {/* <span>🎏</span>
                     <label htmlFor="">VIE</label>
                     <span>🎏</span>
-                    <label htmlFor="">VNĐ</label>
+                    <label htmlFor="">VNĐ</label> */}
                 </div>
             </div>
         </section>

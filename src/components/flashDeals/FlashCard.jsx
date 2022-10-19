@@ -24,7 +24,7 @@ const PrevArrow = (props) => {
 }
 
 
-const FlashCard = ({ productItems }) => {
+const FlashCard = ({ productItems, addToCart}) => {
     const [count, setCount] = useState(0)
     const increment = () => {
         setCount(count + 1)
@@ -53,7 +53,7 @@ const FlashCard = ({ productItems }) => {
                                     <img src={productItems.cover} alt="" />
                                     <div className="product-like">
                                         <label>0</label> <br />
-                                        <div className='heart'><i class="fa-light fa-heart"></i></div>
+                                        <div className='heart'><i class='fa-thin fa-heart' onClick={increment}></i></div>
                                     </div>
                                 </div>
                                 <div className="product-details">
@@ -69,7 +69,7 @@ const FlashCard = ({ productItems }) => {
                                     </div>
                                     <div className="price">
                                         <h4>{productItems.price}VNĐ</h4>
-                                        <button>
+                                        <button onClick={() => addToCart(productItems)}>
                                             <i className='fa fa-plus'></i>
                                         </button>
                                     </div>

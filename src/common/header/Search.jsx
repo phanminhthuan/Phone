@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Search = () => {
+const Search = ({ cartItem }) => {
   window.addEventListener("scroll", function () {
     const search = document.querySelector(".search")
     search.classList.toggle("active", window.scrollY > 100)
@@ -31,7 +31,7 @@ const Search = () => {
             <div className='cart'>
               <Link to='/cart'>
                 <div className='bag-icon'><i className='fa fa-shopping-bag icon-circle'></i>
-                  <span>0</span>
+                  <span>{cartItem.length === 0 ? "" : cartItem.length}</span>
                 </div>
               </Link>
             </div>
