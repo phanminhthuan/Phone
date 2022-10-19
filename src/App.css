@@ -81,6 +81,8 @@ button {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
 }
 
+
+
 /*------------category start-----------*/
 .contentWidth {
   width: 77%;
@@ -142,6 +144,18 @@ button {
 .heading h1 {
   margin-top: 30px;
   color: #ffa007;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ff3c3ce5;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 10px;
 }
 
 /*----------start product-------*/
@@ -256,3 +270,20 @@ button {
 }
 
 /*---------Control Button--------*/
+
+/*----- heading -------*/
+.heading .heading-left i {
+  color: #17469e;
+  font-size: 30px;
+}
+
+.heading .heading-left h2 {
+  font-size: 25px;
+  margin: 5px;
+}
+.heading .heading-right i,
+.heading .heading-right {
+  text-align: right;
+  color: grey;
+}
+/*----- heading -------*/

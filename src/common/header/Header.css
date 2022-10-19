@@ -43,7 +43,7 @@
 .search-box {
     margin-left: 35px;
     width: 80%;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, .1);
 }
 
 .search-box .icon-search {
