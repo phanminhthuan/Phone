@@ -24,7 +24,8 @@ const SlideCard = () => {
                     return (
                         <div className='box d_flex top' key={index}>
                             <div className='left'>
-                                <h1>{value.title}</h1>
+                                <h1>{value.title1}</h1>
+                                <h2>{value.title2}</h2>
                                 <p>{value.desc}</p>
                                 <button className='btn-primary'>Xem Sản Phẩm</button>
                             </div>

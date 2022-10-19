@@ -3,47 +3,47 @@ import React from 'react'
 const Categories = () => {
     const data = [
         {
-            cateImg: "./images/category/cat1.png",
+            cateImg: "./images/category/phone-1.png",
             cateName: "Điện Thoại",
         },
         {
-            cateImg: "./images/category/cat2.png",
+            cateImg: "./images/category/tablet.png",
             cateName: "Máy tính bảng",
         },
         {
-            cateImg: "./images/category/cat3.png",
+            cateImg: "./images/category/laptop.png",
             cateName: "Laptop",
         },
         {
-            cateImg: "./images/category/cat4.png",
+            cateImg: "./images/category/watch.png",
             cateName: "Đồng Hồ",
         },
         {
-            cateImg: "./images/category/cat11.png",
+            cateImg: "./images/category/smart_toy.png",
             cateName: "Đồ Chơi Công Nghệ",
         },
         {
-            cateImg: "./images/category/cat6.png",
+            cateImg: "./images/category/sound.png",
             cateName: "Âm Thanh",
         },
         {
-            cateImg: "./images/category/cat7.png",
+            cateImg: "./images/category/devices_other.png",
             cateName: "Phụ Kiện",
         },
         {
-            cateImg: "./images/category/cat10.png",
+            cateImg: "./images/category/sim_card.png",
             cateName: "Sim Thẻ",
         },
         {
-            cateImg: "./images/category/cat9.png",
+            cateImg: "./images/category/construction.png",
             cateName: "Sữa Chữa",
         },
         {
-            cateImg: "./images/category/cat5.png",
+            cateImg: "./images/category/gift.png",
             cateName: "Khuyến Mãi",
         },
         {
-            cateImg: "./images/category/cat8.png",
+            cateImg: "./images/category/news.png",
             cateName: "Tin Tức",
         },
     ]

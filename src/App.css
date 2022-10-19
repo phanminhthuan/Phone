@@ -113,6 +113,7 @@ button {
   background-color: #fceb9f;
   cursor: pointer;
 }
+
 /*------------category end-----------*/
 
 .btn-primary {
@@ -212,8 +213,43 @@ button {
 .product:hover .product-like {
   opacity: 1;
 }
+
 /*----------end product-------*/
 
 /*---------Control Button--------*/
+.control-btn .next,
+.control-btn .prev {
+  position: absolute;
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  line-height: 60px;
+  background: #ffa007;
+  border-radius: 50%;
+  transform: 0.5s;
+  z-index: 5;
+}
+
+.control-btn .prev {
+  left: -20px;
+}
+
+.control-btn .next {
+  right: -20px;
+}
+
+.control-btn .prev i,
+.control-btn .next i {
+  font-size: 200px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.control-btn .prev:hover,
+.control-btn .next:hover {
+  background: #e9d945;
+  color: white;
+  cursor: pointer;
+}
 
 /*---------Control Button--------*/

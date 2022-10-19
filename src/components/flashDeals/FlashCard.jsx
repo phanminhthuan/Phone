@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Slider from "react-slick";
 
 const NextArrow = (props) => {
@@ -25,6 +25,11 @@ const PrevArrow = (props) => {
 
 
 const FlashCard = ({ productItems }) => {
+    const [count, setCount] = useState(0)
+    const increment = () => {
+        setCount(count + 1)
+    }
+
     const settings = {
         dots: false,
         infinite: true,
@@ -44,26 +49,26 @@ const FlashCard = ({ productItems }) => {
                         <div className="box">
                             <div className="product mtop">
                                 <div className="img">
-                                    <span className='discount'>{productItems.discount}% Off</span>
+                                    <span className='discount'>Sale {productItems.discount}%</span>
                                     <img src={productItems.cover} alt="" />
                                     <div className="product-like">
                                         <label>0</label> <br />
-                                        <i class="fa-light fa-heart"></i>
+                                        <div className='heart'><i class="fa-light fa-heart"></i></div>
                                     </div>
                                 </div>
                                 <div className="product-details">
                                     <h3>{productItems.name}</h3>
                                     <div className='rate'>
                                         <div className='star-rate'>
-                                        <i className='fa fa-star'></i>
-                                        <i className='fa fa-star'></i>
-                                        <i className='fa fa-star'></i>
-                                        <i className='fa fa-star'></i>
-                                        <i className='fa fa-star'></i>
+                                            <i className='fa fa-star'></i>
+                                            <i className='fa fa-star'></i>
+                                            <i className='fa fa-star'></i>
+                                            <i className='fa fa-star'></i>
+                                            <i className='fa fa-star'></i>
                                         </div>
                                     </div>
                                     <div className="price">
-                                        <h4>{productItems.price}.000 VNĐ</h4>
+                                        <h4>{productItems.price}VNĐ</h4>
                                         <button>
                                             <i className='fa fa-plus'></i>
                                         </button>
