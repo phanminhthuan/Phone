@@ -1,27 +1,26 @@
 import React from 'react'
-import Cart from './Cart'
-import './Style.css'
+import Dcard from './Dcard'
 
-const NewArrivals = () => {
+const Discount = () => {
     return (
         <>
-            <section className='newArrivals backgound'>
+            <section className='Discount background newarrivals'>
                 <div className="container">
                     <div className="heading d_flex">
                         <div className="heading-left row f_flex">
-                            <img src='https://img.icons8.com/glyph-neue/64/26e07f/new.png' />
-                            <h2>Sản Phẩm Mới</h2>
+                            <img src='https://img.icons8.com/windows/32/fa314a/gift.png' />
+                            <h2>Khuyến Mãi</h2>
                         </div>
                         <div className="heading-right row">
                             <span>Xem tất cả</span>
                             <i className='fa fa-caret-right'></i>
                         </div>
                     </div>
-                    <Cart />
+                    <Dcard/>
                 </div>
             </section>
         </>
     )
 }
 
-export default NewArrivals
+export default Discount
