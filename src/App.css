@@ -86,14 +86,15 @@ button {
 /*------------category start-----------*/
 .contentWidth {
   width: 77%;
+  background-color:#fff;
 }
 
 .category {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
   background-color: #fff;
-  width: 23%;
+  width: 20%;
   height: 510px;
-  padding: 15px 0;
+  padding: 15px 10px;
   border-radius: 5px;
   margin-top: 5px;
 }
@@ -107,7 +108,7 @@ button {
 }
 
 .category span {
-  margin: 10px 20px;
+  margin: 10px 0px;
   text-transform: capitalize;
 }
 

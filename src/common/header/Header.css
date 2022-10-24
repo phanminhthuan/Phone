@@ -1,18 +1,26 @@
 /*----------head---------*/
 .head {
-    background-color: burlywood;
-    padding: 10px;
+    background-color: #FFD400;
+    padding: 5px;
     color: #fff;
 }
 
-.head i {
+/* .head i {
     margin-right: 10px;
-}
+} */
 
-.head label {
+.head label {       
     margin-right: 30px;
     font-size: 15px;
 }
+
+.head img {
+    padding-left: 65px;
+}
+
+/* .banner {
+    margin-left: 25px;
+} */
 
 /*----------end head---------*/
 
