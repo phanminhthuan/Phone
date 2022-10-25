@@ -6,6 +6,7 @@ import Sdata from './components/shops/Sdata';
 import Data from './components/flashDeals/Data';
 import { useState } from 'react';
 import Cart from './common/cart/Cart';
+import Footer from './common/footer/Footer';
 
 function App() {
   //B1: Nạp dữ liệu từ cơ sở dữ liệu
@@ -46,6 +47,7 @@ function App() {
             <Cart cartItem={cartItem} addToCart={addToCart} decreaseQty={decreaseQty}/>
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </>
   )
