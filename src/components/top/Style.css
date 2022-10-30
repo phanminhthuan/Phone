@@ -11,6 +11,12 @@
     height: 100%;
 }
 
+.topCat .cat-icon img {
+    width: 40px !important;
+    height: 100%;
+    margin-top: 0px !important;
+}
+
 .topCat .nametop {
     position: relative;
     width: 100%;

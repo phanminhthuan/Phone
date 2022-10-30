@@ -13,7 +13,6 @@ body {
 
 .background {
   background-color: #f6f9fc;
-  padding: 50px 0;
 }
 
 .container {
@@ -136,18 +135,23 @@ button {
   margin-top: 40px;
 }
 
+.flash {
+  margin-top: 30px;
+}
+
 .heading .bolt {
   color: #ffa007;
   margin: 10px;
-  margin-top: 36px;
 }
 
-.heading h1 {
-  margin-top: 30px;
+.heading h3 {
   color: #ffa007;
+  margin-bottom: 0px;
+  line-height: 50px;
+  margin-left: 10px;
 }
 
-.discount {
+.shop-cart .discount {
   position: absolute;
   top: 0;
   left: 0;
@@ -282,10 +286,20 @@ button {
   font-size: 25px;
   margin: 5px;
 }
-.heading .heading-right i,
+
 .heading .heading-right {
   text-align: right;
-  color: grey;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.heading .heading-right i {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.heading .heading-right span {
+  margin-right: 10px;
 }
 /*----- heading -------*/
 
@@ -299,4 +313,8 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+
+a {
+  color: #000 !important;
 }

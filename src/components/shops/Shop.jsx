@@ -11,10 +11,10 @@ const Shop = ({ shopItems, addToCart }) => {
                     <Catg />
                     <div className="contentWidth">
                         <div className="heading d_flex">
-                            <div className="heading-left row f_flex">
+                            <div className="heading-left f_flex">
                                 <h2>Điện Thoại</h2>
                             </div>
-                            <div className="heading-right row">
+                            <div className="heading-right">
                                 <span>Xem tất cả</span>
                                 <i className='fa fa-caret-right'></i>
                             </div>

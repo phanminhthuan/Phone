@@ -11,14 +11,14 @@ const ShopCart = ({ shopItems, addToCart }) => {
             {shopItems.map((shopItems) => {
 
                 return (
-                    <div className="box">
+                    <div className="box shop-cart">
                         <div className="product mtop">
                             <div className="img">
                                 <span className='discount'>Sale {shopItems.discount}%</span>
                                 <img src={shopItems.cover} alt="" />
                                 <div className="product-like">
                                     <label>0</label> <br />
-                                    <div className='heart'><i class='fa-thin fa-heart' onClick={increment}></i></div>
+                                    <div className='heart'><i className='fa-thin fa-heart' onClick={increment}></i></div>
                                 </div>
                             </div>
                             <div className="product-details">

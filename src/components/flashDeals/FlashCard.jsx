@@ -46,14 +46,14 @@ const FlashCard = ({ productItems, addToCart}) => {
                 {productItems.map((productItems) => {
 
                     return (
-                        <div className="box">
+                        <div className="box shop-cart">
                             <div className="product mtop">
                                 <div className="img">
                                     <span className='discount'>Sale {productItems.discount}%</span>
                                     <img src={productItems.cover} alt="" />
                                     <div className="product-like">
                                         <label>0</label> <br />
-                                        <div className='heart'><i class='fa-thin fa-heart' onClick={increment}></i></div>
+                                        <div className='heart'><i className='fa fa-heart' onClick={increment}></i></div>
                                     </div>
                                 </div>
                                 <div className="product-details">

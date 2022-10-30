@@ -1,17 +1,18 @@
 import React from 'react'
 import Dcard from './Dcard'
+import './Style.css'
 
 const Discount = () => {
     return (
         <>
-            <section className='Discount background newarrivals'>
+            <section className='Discount background'>
                 <div className="container">
                     <div className="heading d_flex">
-                        <div className="heading-left row f_flex">
+                        <div className="heading-left f_flex">
                             <img src='https://img.icons8.com/windows/32/fa314a/gift.png' />
-                            <h2>Khuyến Mãi</h2>
+                            <h3>Khuyến Mãi</h3>
                         </div>
-                        <div className="heading-right row">
+                        <div className="heading-right">
                             <span>Xem tất cả</span>
                             <i className='fa fa-caret-right'></i>
                         </div>

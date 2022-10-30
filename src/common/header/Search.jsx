@@ -14,7 +14,7 @@ const Search = ({ cartItem }) => {
               <img src={logo} alt='' />
             </div> */}
           <div>
-            <a href="/" class="logo"><span>LT</span>SPhone</a>
+            <a href="/" className="logo"><span>LT</span>SPhone</a>
           </div>
 
           <div className='search-box f_flex'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import Head from './head'
-import Navbar from './Navbar'
+import NavBar from './NavBar'
 import Search from './Search'
 
 const Header = ({ cartItem }) => {
@@ -9,7 +9,7 @@ const Header = ({ cartItem }) => {
     <>
         <Head />
         <Search cartItem={cartItem} />
-        <Navbar />
+        <NavBar />
     </>
   )
 }

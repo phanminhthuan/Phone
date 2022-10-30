@@ -27,7 +27,7 @@ const Cart = ({ cartItem, addToCart, decreaseQty }) => {
                                     <div className="cart-items-function">
                                         <div className="removeCart">
                                             <button>
-                                                <i class="fa-regular fa-trash"></i>
+                                                <i className="fa-regular fa-trash"></i>
                                             </button>
                                         </div>
 

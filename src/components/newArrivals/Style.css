@@ -6,7 +6,7 @@
   .newArrivals h4 {
     font-weight: 400;
   }
-  .newArrivals span {
+  .newArrivals .box span {
     color: #ffa007;
     font-size: 15px;
     font-weight: 500;
